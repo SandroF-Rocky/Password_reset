@@ -3,7 +3,7 @@ senha_input = document.querySelector("input[type=password]")
 senha_input.addEventListener("keyup", ()=>{
     senha = senha_input.value;
 
-    regEX_length = /[a-z0-9A-Z]{8}/
+    regEX_length = /[a-z0-9A-Z\!\@\#\$\%\¨\&\*\(\)]{8}/
     regEX_lower = /[a-z]/
     regEX_upper = /[A-Z]/
     regEX_numeric = /[0-9]/
